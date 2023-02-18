@@ -1,0 +1,151 @@
+body {
+  background-color: #18122B;
+  color: #FFFBEB;
+}
+
+
+nav {
+  position: absolute;
+  border-radius: 8px;
+  right: 15px;
+  top: 0;
+
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 10px;
+  border: 5px solid #443C68;
+  background: #443C68;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #FFFBEB;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  transition: 800ms;
+  color: #BFACE2;
+}
+
+.logo-nome {
+  background: #443C68;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+  
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+#sobre-mim {
+  background: #443C68;
+  padding: 10px;
+  margin: 15px;
+  border: 5px solid #443C68;
+  border-radius: 5px;
+}
+
+#sobre-mim p {
+  text-align: center;
+  background: #393053;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  margin: 15px;
+  border: 3px solid #393053;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#projetos {
+  background: #443C68;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+#projetos li {
+  text-align: center;
+  background: #393053;
+  display: block;
+  padding: 10px;
+  margin: 15px;
+  border: 3px solid #393053;
+  border-radius: 8px; 
+}
+
+#projetos li:hover {
+  transition: 700ms;
+  background: #18122B;
+  border: 3px solid #18122B;
+}
+
+#projetos a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px; 
+}
+
+#contato {
+  background: #443C68;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+#contato li {
+  text-align: center;
+  background: #393053;
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  margin: 15px;
+  border: 3px solid #393053;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#contato li:hover {
+  transition: 700ms;
+  background: #18122B;
+  border: 3px solid #18122B;
+}
+
+#contato a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px; 
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px auto;
+    text-align: center;
+}
+
